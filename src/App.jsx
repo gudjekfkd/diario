@@ -1,14 +1,15 @@
 import { useState } from 'react'
 import './App.css'
 import Perfil from './components/Perfil'
+import Container from './components/Container'
 
 function App() {
 
   return (
-    <>
-      <Perfil nome="gustavo" profissao="aluno" />
-      <Projetos />
-    </>
+    <Container>
+      <h1>Titulo</h1>
+      <p>Subtitulo</p>
+    </Container>
   )
 }
 
