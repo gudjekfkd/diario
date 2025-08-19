@@ -1,8 +1,8 @@
-function Perfil({nome, profissao}) {
+function Perfil(props) {
     return (
         <div>
-        <h2>{nome}</h2>
-        <p>{profissao}</p>
+        <h2>{props.nome}</h2>
+        <p>{props.profissao}</p>
         </div>
     )
 }
