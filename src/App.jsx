@@ -1,15 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import Perfil from './components/Perfil'
-import Container from './components/Container'
+import ModoNoturno from './components/ModoNoturno'
+import './components/ModoNoturno.css'
 
 function App() {
 
   return (
-    <Container>
-      <h1>Titulo</h1>
-      <p>Subtitulo</p>
-    </Container>
+    <ModoNoturno />
   )
 }
 
