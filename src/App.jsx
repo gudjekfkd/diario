@@ -1,12 +1,11 @@
 import { useState } from 'react'
 import './App.css'
-import ModoNoturno from './components/ModoNoturno'
-import './components/ModoNoturno.css'
+import FiltroProdutos from './components/FiltroProdutos'
 
 function App() {
 
   return (
-    <ModoNoturno />
+    <FiltroProdutos />
   )
 }
 
